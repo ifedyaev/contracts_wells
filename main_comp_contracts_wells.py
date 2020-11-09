@@ -4,12 +4,12 @@ import sys
 import time
 
 # data
-from alexey_fedyaev.data.container import BorderStatistWells
-from alexey_fedyaev.const.const import *
-from alexey_fedyaev.const.error import *
-from alexey_fedyaev.logger.logger import err_log
-from alexey_fedyaev.read_xls.real_sheet import extract_xls, read_list_sheets
-from alexey_fedyaev.write_xls.workbook_write import WorkBookContractWells
+from data.container import BorderStatistWells
+from const.const import *
+from const.error import *
+from logger.logger import err_log
+from read_xls.real_sheet import extract_xls, read_list_sheets
+from write_xls.workbook_write import WorkBookContractWells
 
 # set to environment path PYTHONPATH
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))

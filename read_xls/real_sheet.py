@@ -4,7 +4,7 @@ import pandas as pd
 # read
 from openpyxl import load_workbook
 # const
-from alexey_fedyaev.const.const import *
+from const.const import *
 
 
 def read_list_sheets(path_xls: str):

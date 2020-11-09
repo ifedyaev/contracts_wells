@@ -13,12 +13,12 @@ from openpyxl.styles import Color, PatternFill, Font, Border, Alignment, Side
 from openpyxl.styles.borders import BORDER_THIN, BORDER_MEDIUM
 # colors
 from openpyxl.styles.colors import WHITE
-from alexey_fedyaev.const.const import *
+from const.const import *
 # utils
 from openpyxl.utils import get_column_letter
 #
-from alexey_fedyaev.data.container import BorderStatistWells
-from alexey_fedyaev.utils.utils import terminal_progress_bar
+from data.container import BorderStatistWells
+from utils.utils import terminal_progress_bar
 
 # array month of year
 g_arr_month_by_year = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
